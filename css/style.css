@@ -216,11 +216,9 @@ img {
     display: flex;
     gap: 40px;
 }
-.header-list-item {
-    padding: 24px 0;
-    cursor: pointer;
-}
+.header-list-item {}
 .header-list-link {
+    padding: 24px 0;
     color:var(--title-dark-color);
     font-weight: 500;
 }
