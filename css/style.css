@@ -217,7 +217,7 @@ img {
     gap: 40px;
 }
 .header-list-item {
-    padding: 24px 0px;
+    padding: 24px 0;
     cursor: pointer;
 }
 .header-list-link {
@@ -248,11 +248,11 @@ img {
 
 .footer {
     background-color: var(--section-dark-bg-color);
-    padding: 101.5px 0px 100px
+    padding: 100px 0px;
 }
 .footer-logo{
     display: inline-block;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 .footer-logo .logo-accent {
     color: var(--text-secondary-light-color);
@@ -280,8 +280,14 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
+}
+
+.order-service{
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .advantages {}
@@ -345,6 +351,7 @@ img {
 .team-list-item {
     background-color: #FFFFFF;
     width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-desc{
@@ -383,6 +390,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-projects-item-desc{
